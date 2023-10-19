@@ -1,0 +1,14 @@
+services:
+  tomcat9.0.80:
+    build:
+      context: ./9.0.80
+    container_name: 'tomcat9.0.80'
+    ports:
+      - "8080:8080"
+  tomcat9.0.82:
+    build:
+      context: ./9.0.82
+    container_name: 'tomcat9.0.82'
+    ports:
+      - "8082:8080"
+

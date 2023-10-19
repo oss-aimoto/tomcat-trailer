@@ -1,0 +1,13 @@
+POST /examples/test.jsp HTTP/1.1
+Host: www.example.co.jp
+Content-Type: application/x-www-form-urlencoded
+Transfer-Encoding: chunked
+Connection: KeepAlive
+
+5
+foo=b
+2
+ar
+0
+testaimoto: AAAAA
+
